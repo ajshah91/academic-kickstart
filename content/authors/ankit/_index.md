@@ -28,6 +28,7 @@ interests:
 - Robotics
 - Artificial Intelligence
 - Probabilistic Modeling
+- Probabilistic Programming
 
 education:
   courses:

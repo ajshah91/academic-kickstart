@@ -3,7 +3,7 @@
 
 title: "June 2019"
 subtitle: ""
-summary: "I will be presenting my work on [link](/project/puns)"
+summary: "I will be presenting my work on [planning with uncertain specifications](/project/puns) at RSS 20198"
 authors: []
 tags: []
 categories: []
