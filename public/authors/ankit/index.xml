@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ankit Shah</title>
+    <link>http://people.csail.mit.edu/ajshah/authors/ankit/</link>
+    <description>Recent content on Ankit Shah</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="http://people.csail.mit.edu/ajshah/authors/ankit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://people.csail.mit.edu/ajshah/authors/ankit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/authors/ankit/</guid>
+      <description>&lt;p&gt;Ankit Shah is a PhD candidate in the Interactive Robotics Group at Massachusetts Institute of Technology advised by Prof. Julie Shah. His current research interests lie in enabling robots to learn complex multi-step tasks from demonstrations.&lt;/p&gt;
+
+&lt;!-- #In particular, he is interested in enabling use of temporal logic formulas as an intermediary between the teacher and the learner.
+
+#In the past he has also worked on manipulation planning for deformable objects for his SM thesis completed in 2016 at MIT. Prior to joining MIT, Ankit completed his B.Tech. in Aerospace Engineering from Indian Institute of Technology, Bombay (IIT-B) in 2013. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

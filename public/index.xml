@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ankit Shah</title>
+    <link>http://people.csail.mit.edu/ajshah/</link>
+    <description>Recent content on Ankit Shah</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2019 16:24:12 -0400</lastBuildDate>
+    
+	    <atom:link href="http://people.csail.mit.edu/ajshah/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>June 2019</title>
+      <link>http://people.csail.mit.edu/ajshah/post/june2019/</link>
+      <pubDate>Tue, 11 Jun 2019 16:24:12 -0400</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/post/june2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning with Uncertain Specifications (PUnS)</title>
+      <link>http://people.csail.mit.edu/ajshah/project/puns/</link>
+      <pubDate>Tue, 11 Jun 2019 14:26:08 -0400</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/project/puns/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://people.csail.mit.edu/ajshah/img/puns.png&#34; alt=&#34;Bayesian Specification Inference&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Very often the specifications for a task can at best be stated as a collection of logical preferences. This is especially true if the specifications are constructed by preference elicitation from experts or by inferring specifications as a belief over logical formulas from examples. Quite often it might be impossible to simultaneously satisfy all the logical formulas in this collection, so it is desirable to best adhere to the entire distribution rather than individual formulas within its support.&lt;/p&gt;
+
+&lt;p&gt;While it is easy to define the semantics of satisfaction of a single formula, in this work, we have identified four evaluation criteria that capture the semantics of satisfying a belief over logical formulas. These include the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Most likely:&lt;/em&gt;&lt;/strong&gt; Here only the formula with the highest probability in the belief distribution is satisfied, the other formulas are ignored.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Maximum coverage:&lt;/em&gt;&lt;/strong&gt; The largest set of unique formulas in the belief distribution is satisfied.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Minimum regret:&lt;/em&gt;&lt;/strong&gt; The hypothesis averaged satisfaction of the belief distribution is maximised.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;Chance constrained:&lt;/em&gt;&lt;/strong&gt; The maximum probability of failure is determined by the user and the distribution is modified to only capture a set of formulas that have a cumulative probability larger than the failure probability.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While traditionally, planning problems have focused on a single user specified formula as specifications, they cannot handle these cases where&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Specification Inference</title>
+      <link>http://people.csail.mit.edu/ajshah/project/bsi/</link>
+      <pubDate>Mon, 10 Jun 2019 18:15:02 -0400</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/project/bsi/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://people.csail.mit.edu/ajshah/img/bsi.jpg&#34; alt=&#34;Bayesian Specification Inference&#34; /&gt;&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/u6_YTWhrA0c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Imagine showing a friend how to play your favorite quest-based video game. A mission within such a game might be composed of multiple sub-quests that must be completed in order to complete that level. In this scenario, it is likely that your friend would comprehend what needs to be done in order to complete the mission well before he or she was actually able to play the game effectively. While learning from demonstrations, human apprentices can identify whether a task is executed correctly well before gaining expertise in that task. Most current approaches to learning from demonstration frame this problem as one of learning a reward function or policy within a Markov decision process setting; however, user specification of acceptable behaviors through reward functions and policies remains an open problem. Temporal logics are frequently used as a language for expressing desirable system behaviors, and can improve the interpretability of specifications if expressed as compositions of simpler templates.&lt;/p&gt;
+
+&lt;p&gt;The flexibility of LTL for specifying behaviors also represents a key challenge with regard to inference due to a large hypothesis space. We address this by restricting the hypothesis space to logical compositions of certain relevant behavior templates, thus encoding useful inductive biases. Another key challenge is the inherent ambiguity of the task where multiple formulas explain all the observed demonstrations equally well. To address that, we propose a Bayesian formulation of specification inference where the output is not a single formula, but a posterior distribution over formulas conditioned on the observed demonstrations, thus automatically representing the ambiguity and the uncertainty associated with it.&lt;/p&gt;
+
+&lt;!-- We were able to successfully demonstrate the utility of specification inference on multiple domains. The first was a synthetic domain consisting of an agent moving in a 2D plain with points of interests and threats. The specifications included a set of points of interests to visit, the set of threats to avoid and a set of admissible orderings over the points of interest --&gt;
+
+&lt;!-- The current repertoire of tasks that robots can plan for and can learn from demonstrations is quite limited.  --&gt;
+
+&lt;!-- Traditionally Learning from Demonstrations (LfD) has been viewed in the context of inverse reinforcement learning (IRL). However this formulation of LfD restricts the types of task that robots can learn to the ones that are Markovian --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Planning With Uncertain Specifications (PUnS)</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah2019puns/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah2019puns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Inference of Linear Temporal Logic Specifications for Contrastive Explanations</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/kim-2019-ijcai/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/kim-2019-ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Inference of Temporal Specifications to Explain How Plans Differ</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/kim-2019-xaip/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/kim-2019-xaip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supervised Bayesian Specification Inference from Demonstrations</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah-2019-ijrr/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah-2019-ijrr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Inference of Temporal Task Specifications from Demonstrations</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah-2018-nips/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah-2018-nips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning for Manipulation of Interlinked Deformable Linear Objects With Applications to Aircraft Assembly</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah-2018-planning/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah-2018-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Specification Learning from Demonstrations</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah-2018-rss/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah-2018-rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appraisal of Statistical Practices in HRI vis-a-vis the T-Test for Likert Items/Scales</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/gombolay-2016-appraisal/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/gombolay-2016-appraisal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manipulation planning for interlinked cables</title>
+      <link>http://people.csail.mit.edu/ajshah/project/dlo/</link>
+      <pubDate>Sat, 11 Jun 2016 15:24:59 -0400</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/project/dlo/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/XKrU_Ox83cw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;We considered the task of installation of an interlinked set of cables in an aircraft fuselage. The cables in question are heavy harnesses of wiring that run along the length of the fuselage. The interlinks connecting the cables are fragile and can not bear the weight of the main cables; hence any attempt to manipulate the cables independently without considering these interlinks may result in damage to their electrical integrity.&lt;/p&gt;
+
+&lt;p&gt;Mmany promising approaches have been proposed towards manipulation and motion planning for a single cable with both ends manipulated, this problem requires a formulation that allows for planning with multiple cables with interlink constraints. Manipulation planning for multiple interlinked is inherently a mixed discrete and continuous problem. The cable shape and manipulator positions lie in a continuous state space, whereas the actions of clamping the cable to pre-defined clamp location, grasping or releasing a cable for a discrete state space. We tackle this in a hierarchical manner by defining a higher level task planner and a lower level motion planner. We propose the problem formulation for the higher level task planner and propose a prototype planner to generate satisficing solutions to the task planning problem.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Planning for Manipulation of Interlinked Deformable Linear Objects With Applications to Aircraft Assembly</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah-2016-thesis/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah-2016-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards manipulation planning for multiple interlinked deformable linear objects</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah-2016-towards/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah-2016-towards/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
