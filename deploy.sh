@@ -9,11 +9,5 @@ git push
 
 echo SSH into CSAIL
 
-ssh ajshah@login.csail.mit.edu
-
-cd Github/Website
-git pull
-cd ~
-cp -r Github/Website/public/* public_html/*
-
+ssh ajshah@login.csail.mit.edu 'bash update_website.sh'
 
