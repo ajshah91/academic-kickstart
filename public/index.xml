@@ -60,7 +60,7 @@
       <pubDate>Mon, 10 Jun 2019 18:15:02 -0400</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/project/bsi/</guid>
-      <description>
+      <description>&lt;!-- 
 
 
   
@@ -70,7 +70,7 @@
 &lt;img src=&#34;http://people.csail.mit.edu/ajshah/ajshah/img/bsi.jpg&#34; /&gt;
 
 
-&lt;/figure&gt;
+&lt;/figure&gt; --&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
