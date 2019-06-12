@@ -40,7 +40,7 @@ url_video: ""
 slides: ""
 ---
 
-{{< figure library="1" src="puns.png" title="Planning with Uncertain Specifications" >}}
+{{< figure library="1" src="puns.png" title="" >}}
 
 
 Very often the specifications for a task can at best be stated as a collection of logical preferences. This is especially true if the specifications are constructed by preference elicitation from experts or by inferring specifications as a belief over logical formulas from examples. Quite often it might be impossible to simultaneously satisfy all the logical formulas in this collection, so it is desirable to best adhere to the entire distribution rather than individual formulas within its support.

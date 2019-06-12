@@ -37,12 +37,6 @@
 &lt;img src=&#34;http://people.csail.mit.edu/ajshah/ajshah/img/puns.png&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Planning with Uncertain Specifications&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
 &lt;/figure&gt;
 
 &lt;p&gt;Very often the specifications for a task can at best be stated as a collection of logical preferences. This is especially true if the specifications are constructed by preference elicitation from experts or by inferring specifications as a belief over logical formulas from examples. Quite often it might be impossible to simultaneously satisfy all the logical formulas in this collection, so it is desirable to best adhere to the entire distribution rather than individual formulas within its support.&lt;/p&gt;
@@ -75,12 +69,6 @@
 
 &lt;img src=&#34;http://people.csail.mit.edu/ajshah/ajshah/img/bsi.jpg&#34; /&gt;
 
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Bayesian Specification Inference&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
 
 &lt;/figure&gt;
 
