@@ -40,7 +40,7 @@ url_video: ""
 slides: ""
 ---
 
-![Bayesian Specification Inference](/img/puns.png)
+{{< figure library="1" src="puns.png" title="Planning with Uncertain Specifications" >}}
 
 
 Very often the specifications for a task can at best be stated as a collection of logical preferences. This is especially true if the specifications are constructed by preference elicitation from experts or by inferring specifications as a belief over logical formulas from examples. Quite often it might be impossible to simultaneously satisfy all the logical formulas in this collection, so it is desirable to best adhere to the entire distribution rather than individual formulas within its support.
@@ -50,6 +50,6 @@ While it is easy to define the semantics of satisfaction of a single formula, in
 - ***Most likely:*** Here only the formula with the highest probability in the belief distribution is satisfied, the other formulas are ignored.
 - ***Maximum coverage:*** The largest set of unique formulas in the belief distribution is satisfied.
 - ***Minimum regret:*** The hypothesis averaged satisfaction of the belief distribution is maximised.
-- ***Chance constrained:*** The maximum probability of failure is determined by the user and the distribution is modified to only capture a set of formulas that have a cumulative probability larger than the failure probability. 
+- ***Chance constrained:*** The maximum probability of failure is determined by the user and the distribution is modified to only capture a set of formulas that have a cumulative probability larger than the failure probability.
 
 While traditionally, planning problems have focused on a single user specified formula as specifications, they cannot handle these cases where

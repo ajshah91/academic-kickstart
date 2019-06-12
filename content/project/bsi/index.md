@@ -43,7 +43,7 @@ slides: ""
 #  image: "bsi.jpg"
 #  caption: "Bayesian Specification Inference"
 ---
-![Bayesian Specification Inference](/img/bsi.jpg)
+{{< figure library="1" src="bsi.jpg" title="Bayesian Specification Inference" >}}
 
 {{< youtube u6_YTWhrA0c >}}
 

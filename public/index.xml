@@ -6,6 +6,7 @@
     <description>Recent content on Ankit Shah</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; {year} Ankit Shah</copyright>
     <lastBuildDate>Tue, 11 Jun 2019 16:24:12 -0400</lastBuildDate>
     
 	    <atom:link href="http://people.csail.mit.edu/ajshah/index.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +27,23 @@
       <pubDate>Tue, 11 Jun 2019 14:26:08 -0400</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/project/puns/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://people.csail.mit.edu/ajshah/img/puns.png&#34; alt=&#34;Bayesian Specification Inference&#34; /&gt;&lt;/p&gt;
+      <description>
+
+
+  
+
+&lt;figure&gt;
+
+&lt;img src=&#34;http://people.csail.mit.edu/ajshah/ajshah/img/puns.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Planning with Uncertain Specifications&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 
 &lt;p&gt;Very often the specifications for a task can at best be stated as a collection of logical preferences. This is especially true if the specifications are constructed by preference elicitation from experts or by inferring specifications as a belief over logical formulas from examples. Quite often it might be impossible to simultaneously satisfy all the logical formulas in this collection, so it is desirable to best adhere to the entire distribution rather than individual formulas within its support.&lt;/p&gt;
 
@@ -49,7 +66,23 @@
       <pubDate>Mon, 10 Jun 2019 18:15:02 -0400</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/project/bsi/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://people.csail.mit.edu/ajshah/img/bsi.jpg&#34; alt=&#34;Bayesian Specification Inference&#34; /&gt;&lt;/p&gt;
+      <description>
+
+
+  
+
+&lt;figure&gt;
+
+&lt;img src=&#34;http://people.csail.mit.edu/ajshah/ajshah/img/bsi.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Bayesian Specification Inference&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
