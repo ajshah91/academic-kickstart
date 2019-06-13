@@ -45,9 +45,10 @@ slides: ""
 ---
 
 
-<!-- {{< figure library="1" src="bsi.jpg" title="" >}} -->
+{{< figure library="1" src="bsi.jpg" title="" >}}<br/>
 
-{{< youtube u6_YTWhrA0c >}}
+
+{{< youtube u6_YTWhrA0c >}}<br/>
 
 Imagine showing a friend how to play your favorite quest-based video game. A mission within such a game might be composed of multiple sub-quests that must be completed in order to complete that level. In this scenario, it is likely that your friend would comprehend what needs to be done in order to complete the mission well before he or she was actually able to play the game effectively. While learning from demonstrations, human apprentices can identify whether a task is executed correctly well before gaining expertise in that task. Most current approaches to learning from demonstration frame this problem as one of learning a reward function or policy within a Markov decision process setting; however, user specification of acceptable behaviors through reward functions and policies remains an open problem. Temporal logics are frequently used as a language for expressing desirable system behaviors, and can improve the interpretability of specifications if expressed as compositions of simpler templates.
 

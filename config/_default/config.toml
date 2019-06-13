@@ -16,7 +16,7 @@ baseurl = "http://people.csail.mit.edu/ajshah/"
 copyright = "&copy; {year} Ankit Shah"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-142114161-1"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""

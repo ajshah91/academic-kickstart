@@ -16,7 +16,7 @@ role: PhD Candidate
 organizations:
 - name: Interactive Robotics Group
   url: "https://interactive.mit.edu"
-- name: Computer Science and Aritificial Intelligience Laboratory
+- name: Computer Science and Artificial Intelligence Laboratory
   url: "https://csail.mit.edu"
 - name: Massachusetts Institute of Technology
   url: "https://www.mit.edu"
@@ -27,7 +27,6 @@ bio: AI researcher interested in expanding the repertoire of tasks that robots c
 interests:
 - Robotics
 - Artificial Intelligence
-- Probabilistic Modeling
 - Probabilistic Programming
 
 education:

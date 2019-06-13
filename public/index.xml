@@ -60,7 +60,7 @@
       <pubDate>Mon, 10 Jun 2019 18:15:02 -0400</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/project/bsi/</guid>
-      <description>&lt;!-- 
+      <description>&lt;p&gt;
 
 
   
@@ -70,13 +70,13 @@
 &lt;img src=&#34;http://people.csail.mit.edu/ajshah/ajshah/img/bsi.jpg&#34; /&gt;
 
 
-&lt;/figure&gt; --&gt;
+&lt;/figure&gt;&lt;br/&gt;&lt;/p&gt;
 
-
+&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/u6_YTWhrA0c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
+&lt;br/&gt;&lt;/p&gt;
 
 &lt;p&gt;Imagine showing a friend how to play your favorite quest-based video game. A mission within such a game might be composed of multiple sub-quests that must be completed in order to complete that level. In this scenario, it is likely that your friend would comprehend what needs to be done in order to complete the mission well before he or she was actually able to play the game effectively. While learning from demonstrations, human apprentices can identify whether a task is executed correctly well before gaining expertise in that task. Most current approaches to learning from demonstration frame this problem as one of learning a reward function or policy within a Markov decision process setting; however, user specification of acceptable behaviors through reward functions and policies remains an open problem. Temporal logics are frequently used as a language for expressing desirable system behaviors, and can improve the interpretability of specifications if expressed as compositions of simpler templates.&lt;/p&gt;
 
