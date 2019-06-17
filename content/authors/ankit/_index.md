@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Candidate
+role: PhD Candidate, MIT
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +22,7 @@ organizations:
   url: "https://www.mit.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: AI researcher interested in expanding the repertoire of tasks that robots can learn.
+bio: PhD candidate at MIT interested in expanding the repertoire of tasks that robots can learn.
 
 interests:
 - Robotics
@@ -79,7 +79,7 @@ email: ""
 #- Visitors
 ---
 
-Ankit Shah is a PhD candidate in the Interactive Robotics Group at Massachusetts Institute of Technology advised by Prof. Julie Shah. His current research interests lie in enabling robots to learn complex multi-step tasks from demonstrations.
+I am a PhD candidate in the Interactive Robotics Group at MIT advised by Prof. Julie Shah. My research interests lie in enabling robots to learn complex multi-step tasks from demonstrations. Towards that goal, I am trying to enable the use of formal logic formulas as intermediaries between the teacher and the learners of the task. I believe that transparency of objectives are a necessary condition for widespread deployment of autonomous robotic systems, and integrating formal logics with learned representations is an important step towards that.
 
 <!-- #In particular, he is interested in enabling use of temporal logic formulas as an intermediary between the teacher and the learner.
 
