@@ -3,7 +3,7 @@ title: "Planning with Uncertain Specifications"
 date: 2019-06-21
 publishDate: 2019-06-17T20:08:23.690424Z
 authors: ["**Ankit Shah**", "Julie Shah"]
-publication_types: ["3"]
+publication_types: ["9"]
 abstract: "Reward engineering is crucial to high performance
 in reinforcement learning systems. Prior research into reward
 design has largely focused on Markovian functions representing
