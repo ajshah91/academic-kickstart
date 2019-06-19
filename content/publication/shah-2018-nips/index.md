@@ -8,6 +8,7 @@ abstract: "When observing task demonstrations, human apprentices are able to ide
 featured: true
 publication: "*Conference on Neural Information Processing Systems*"
 url_pdf: "http://papers.nips.cc/paper/7637-bayesian-inference-of-temporal-task-specifications-from-demonstrations.pdf"
+url_poster: Poster_AShah_NeurIPS2018.pdf
 projects: ["bsi"]
 #abstract:
 ---

@@ -47,9 +47,9 @@ subtitle = ""
  css_class = ""
 +++
 
-- **June 2019:** I will be presenting our work on [PUnS](/project/puns) at [RSS 2019](http://www.roboticsconference.org/) at the Workshop on Combining Learning and Reasoning ([RSS-CLeAR](https://sites.google.com/view/rss19-learning-and-reasoning)) and at the workshop on [Robust Autonomy](https://sites.google.com/view/rss19safe/home)
+- **June 2019:** I will be presenting our work on [PUnS](./project/puns) at [RSS 2019](http://www.roboticsconference.org/) at the Workshop on Combining Learning and Reasoning ([RSS-CLeAR](https://sites.google.com/view/rss19-learning-and-reasoning)) and at the workshop on [Robust Autonomy](https://sites.google.com/view/rss19safe/home)
 - **May 2019:** I will be presenting my work on leveraging temporal logics for learning from demonstrations at University of Washington.
-- **March 2019:** I will be presenting my work on [Bayesian specification inference](/project/bsi) at CU Boulder on March 21st.
-- **December 2018:** I will be presenting our [paper](/publication/shah-2018-nips) at NeurIPS 2018 on December 4th.
-- **October 2018:** I will be presenting a talk on [Bayesian specification inference](/project/bsi) at Brown University robotics on October 12th.
-- **September 2018:** The [paper](/publication/shah-2018-nips) titled 'Bayesian inference of temporal task specifications' has been accepted for a poster presentation at NeurIPS 2018 in Montreal, Canada.
+- **March 2019:** I will be presenting my work on [Bayesian specification inference](./project/bsi) at CU Boulder on March 21st.
+- **December 2018:** I will be presenting our [paper](./publication/shah-2018-nips) at NeurIPS 2018 on December 4th.
+- **October 2018:** I will be presenting a talk on [Bayesian specification inference](./project/bsi) at Brown University robotics on October 12th.
+- **September 2018:** The [paper](./publication/shah-2018-nips) titled 'Bayesian inference of temporal task specifications' has been accepted for a poster presentation at NeurIPS 2018 in Montreal, Canada.
