@@ -9,7 +9,13 @@
   </url>
   
   <url>
-    <loc>http://people.csail.mit.edu/ajshah/publication_types/3/</loc>
+    <loc>http://people.csail.mit.edu/ajshah/publication_types/10/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/publication_types/9/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -33,6 +39,16 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/publication/shah-2019-rss-2/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/shah-2019-rss/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/publication/shah-2019-rss/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
   </url>
@@ -44,8 +60,18 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/publication/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/post/june2019/</loc>
+    <lastmod>2019-06-11T16:24:12-04:00</lastmod>
   </url>
   
   <url>
@@ -54,8 +80,24 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/post/</loc>
+    <lastmod>2019-06-11T16:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/post/</loc>
     <lastmod>2019-06-11T16:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/</loc>
+    <lastmod>2019-06-11T14:26:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/project/puns/</loc>
+    <lastmod>2019-06-11T14:26:08-04:00</lastmod>
   </url>
   
   <url>
@@ -70,8 +112,24 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/project/bsi/</loc>
+    <lastmod>2019-06-10T18:15:02-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/project/bsi/</loc>
     <lastmod>2019-06-10T18:15:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/publication_types/3/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/shah2019puns/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -98,7 +156,17 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/kim-2019-ijcai/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/publication/kim-2019-ijcai/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/kim-2019-xaip/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -132,6 +200,11 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/shah-2019-rss-2/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/authors/patrick-craven/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -150,8 +223,18 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/shah-2019-ijrr/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/publication/shah-2019-ijrr/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/shah-2018-nips/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -166,13 +249,28 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/shah-2018-planning/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/publication/shah-2018-planning/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/shah-2018-rss/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://people.csail.mit.edu/ajshah/publication/shah-2018-rss/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/gombolay-2016-appraisal/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -187,6 +285,11 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/project/dlo/</loc>
+    <lastmod>2016-06-11T15:24:59-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/project/dlo/</loc>
     <lastmod>2016-06-11T15:24:59-04:00</lastmod>
   </url>
@@ -195,6 +298,11 @@
     <loc>http://people.csail.mit.edu/ajshah/publication_types/7/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/shah-2016-thesis/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -215,6 +323,11 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/publication/shah-2016-towards/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/publication/shah-2016-towards/</loc>
     <lastmod>2016-05-01T00:00:00+00:00</lastmod>
   </url>
@@ -224,8 +337,21 @@
   </url>
   
   <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/authors/ankit/</loc>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://people.csail.mit.edu/ajshah/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://people.csail.mit.edu/ajshah/content/talk/</loc>
   </url>
   
   <url>

@@ -13,11 +13,38 @@
     
     
     <item>
+      <title>Notions of Safety with  Uncertainty in Specifications</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah-2019-rss-2/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah-2019-rss-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning with Uncertain Specifications</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/shah-2019-rss/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/shah-2019-rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Planning with Uncertain Specifications</title>
       <link>http://people.csail.mit.edu/ajshah/publication/shah-2019-rss/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/publication/shah-2019-rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning With Uncertain Specifications (PUnS)</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/shah2019puns/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/shah2019puns/</guid>
       <description></description>
     </item>
     
@@ -32,6 +59,15 @@
     
     <item>
       <title>Bayesian Inference of Linear Temporal Logic Specifications for Contrastive Explanations</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/kim-2019-ijcai/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/kim-2019-ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Inference of Linear Temporal Logic Specifications for Contrastive Explanations</title>
       <link>http://people.csail.mit.edu/ajshah/publication/kim-2019-ijcai/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -41,10 +77,37 @@
     
     <item>
       <title>Bayesian Inference of Temporal Specifications to Explain How Plans Differ</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/kim-2019-xaip/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/kim-2019-xaip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Inference of Temporal Specifications to Explain How Plans Differ</title>
       <link>http://people.csail.mit.edu/ajshah/publication/kim-2019-xaip/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/publication/kim-2019-xaip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notions of Safety with  Uncertainty in Specifications</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/shah-2019-rss-2/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/shah-2019-rss-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supervised Bayesian Specification Inference from Demonstrations</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/shah-2019-ijrr/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/shah-2019-ijrr/</guid>
       <description></description>
     </item>
     
@@ -59,10 +122,28 @@
     
     <item>
       <title>Bayesian Inference of Temporal Task Specifications from Demonstrations</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/shah-2018-nips/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/shah-2018-nips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Inference of Temporal Task Specifications from Demonstrations</title>
       <link>http://people.csail.mit.edu/ajshah/publication/shah-2018-nips/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/publication/shah-2018-nips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning for Manipulation of Interlinked Deformable Linear Objects With Applications to Aircraft Assembly</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/shah-2018-planning/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/shah-2018-planning/</guid>
       <description></description>
     </item>
     
@@ -77,6 +158,15 @@
     
     <item>
       <title>Towards Specification Learning from Demonstrations</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/shah-2018-rss/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/shah-2018-rss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Specification Learning from Demonstrations</title>
       <link>http://people.csail.mit.edu/ajshah/publication/shah-2018-rss/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
@@ -86,10 +176,28 @@
     
     <item>
       <title>Appraisal of Statistical Practices in HRI vis-a-vis the T-Test for Likert Items/Scales</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/gombolay-2016-appraisal/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/gombolay-2016-appraisal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appraisal of Statistical Practices in HRI vis-a-vis the T-Test for Likert Items/Scales</title>
       <link>http://people.csail.mit.edu/ajshah/publication/gombolay-2016-appraisal/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/publication/gombolay-2016-appraisal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning for Manipulation of Interlinked Deformable Linear Objects With Applications to Aircraft Assembly</title>
+      <link>http://people.csail.mit.edu/ajshah/content/publication/shah-2016-thesis/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/content/publication/shah-2016-thesis/</guid>
       <description></description>
     </item>
     
