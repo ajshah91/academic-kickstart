@@ -23,12 +23,16 @@
 
   
 
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;http://people.csail.mit.edu/ajshah/ajshah/img/puns.png&#34; /&gt;
+&lt;img src=&#34;http://people.csail.mit.edu/ajshah/ajshah/img/puns.png&#34; &gt;
 
 
 &lt;/figure&gt;
+
 
 &lt;p&gt;Very often the specifications for a task can at best be stated as a collection of logical preferences. This is especially true if the specifications are constructed by preference elicitation from experts or by inferring specifications as a belief over logical formulas from examples. Quite often it might be impossible to simultaneously satisfy all the logical formulas in this collection, so it is desirable to best adhere to the entire distribution rather than individual formulas within its support.&lt;/p&gt;
 
@@ -56,12 +60,16 @@
 
   
 
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;http://people.csail.mit.edu/ajshah/ajshah/img/bsi.jpg&#34; /&gt;
+&lt;img src=&#34;http://people.csail.mit.edu/ajshah/ajshah/img/bsi.jpg&#34; &gt;
 
 
-&lt;/figure&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;br/&gt;&lt;/p&gt;
 
 &lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
