@@ -38,7 +38,7 @@ education:
     institution: Massachusetts Institute of Technology
     year: 2016
   - course: B.Tech. in Aerospace Engineering
-    institution: Indian Institute of Technology
+    institution: Indian Institute of Technology - Bombay
     year: 2013
 
 # Social/Academic Networking
