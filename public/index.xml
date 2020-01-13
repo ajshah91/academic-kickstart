@@ -7,10 +7,38 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Ankit Shah</copyright>
-    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="http://people.csail.mit.edu/ajshah/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interactive Robot Training for Temporal Tasks</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah-2020-pioneers/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah-2020-pioneers/</guid>
+      <description>&lt;p&gt;Imagine a future where a domestic robot ships with a state-of-the-art learning from demonstrations (LfD) system to learn household tasks. You would like the robot to set the dinner-table for you when you get home at dinner time. After you demonstrate how to set the dinner table a couple of times. Would you be confident that robot will not try to place the saucer on top of the cup, or finish as much of the task as possible if an object was missing? I propose an interactive training framework that allows the user to begin the robot training by providing demonstrations, and later provide feedback on the acceptability of task executions performed by the robot.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sampling Prediction-Matching Examples in Neural Networks: a Probabilistic Programming Approach</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/starai2020/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/starai2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Man-Machine Interoperation in Training for Large Force Exercise Air Missions</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/iitsec2019/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/iitsec2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Notions of Safety with  Uncertainty in Specifications</title>
@@ -289,6 +317,15 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/publication/shah-2019-ijrr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Man-machine interoperation in training for offensive counter air missions</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/iitsec2018/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/iitsec2018/</guid>
       <description></description>
     </item>
     

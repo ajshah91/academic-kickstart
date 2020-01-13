@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Ankit Shah</copyright>
-    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="http://people.csail.mit.edu/ajshah/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>**Ankit Shah**</title>
       <link>http://people.csail.mit.edu/ajshah/authors/ankit-shah/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/authors/ankit-shah/</guid>
       <description></description>
@@ -24,9 +24,54 @@
     <item>
       <title>Julie Shah</title>
       <link>http://people.csail.mit.edu/ajshah/authors/julie-shah/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/authors/julie-shah/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serena Booth*</title>
+      <link>http://people.csail.mit.edu/ajshah/authors/serena-booth/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/authors/serena-booth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yilun Zhou*</title>
+      <link>http://people.csail.mit.edu/ajshah/authors/yilun-zhou/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/authors/yilun-zhou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kevin Landers</title>
+      <link>http://people.csail.mit.edu/ajshah/authors/kevin-landers/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/authors/kevin-landers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kevin Oden</title>
+      <link>http://people.csail.mit.edu/ajshah/authors/kevin-oden/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/authors/kevin-oden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patrick Craven</title>
+      <link>http://people.csail.mit.edu/ajshah/authors/patrick-craven/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/authors/patrick-craven/</guid>
       <description></description>
     </item>
     
@@ -54,33 +99,6 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/authors/joseph-kim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kevin Landers</title>
-      <link>http://people.csail.mit.edu/ajshah/authors/kevin-landers/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://people.csail.mit.edu/ajshah/authors/kevin-landers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kevin Oden</title>
-      <link>http://people.csail.mit.edu/ajshah/authors/kevin-oden/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://people.csail.mit.edu/ajshah/authors/kevin-oden/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Patrick Craven</title>
-      <link>http://people.csail.mit.edu/ajshah/authors/patrick-craven/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://people.csail.mit.edu/ajshah/authors/patrick-craven/</guid>
       <description></description>
     </item>
     
