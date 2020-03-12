@@ -23,6 +23,38 @@
     </item>
     
     <item>
+      <title>Interactive Robot Training for Non-Markov Tasks</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah-2020-interactive/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah-2020-interactive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayes-Probe: Distribution-Guided Sampling for Prediction Level Sets</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/booth-2020-bayesprobe/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/booth-2020-bayesprobe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning With Uncertain Specifications (PUnS)</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah2020puns/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah2020puns/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/_Ugr8d_lHtw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sampling Prediction-Matching Examples in Neural Networks: a Probabilistic Programming Approach</title>
       <link>http://people.csail.mit.edu/ajshah/publication/starai2020/</link>
       <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
@@ -144,9 +176,11 @@
 &lt;/figure&gt;
 
 
-&lt;p&gt;Very often the specifications for a task can at best be stated as a collection of logical preferences. This is especially true if the specifications are constructed by preference elicitation from experts or by inferring specifications as a belief over logical formulas from examples. Quite often it might be impossible to simultaneously satisfy all the logical formulas in this collection, so it is desirable to best adhere to the entire distribution rather than individual formulas within its support.&lt;/p&gt;
+&lt;p&gt;Consider the task of setting a dinner table. It involves placing the appropriate serving utensils and silverware according to the dishes being served. Some of the objects need to be placed in a particular order as they might be stacked on top of each other or due to cultural traditions. Many real-world tasks demonstrate such temporal characteristics that can succinctly modeled with linear temporal logic (LTL).&lt;/p&gt;
 
-&lt;p&gt;While it is easy to define the semantics of satisfaction of a single formula, in this work, we have identified four evaluation criteria that capture the semantics of satisfying a belief over logical formulas. These include the following:&lt;/p&gt;
+&lt;p&gt;However defining sound and complete task specifications in LTL is non-trivial, and it remains desirable to allow robots to infer the task specifications through intuitive modalities like demonstrations, spoken instructions or corrections. Thus specifications for a task can at best be stated as a belief over candidate LTL formulas. An ideal learner would try to simultaneously satisfy as many of these candidate properties as possible while performing the task.&lt;/p&gt;
+
+&lt;p&gt;We tackle this problem in this work, where we introduces a novel problem formulation for planning with uncertain specifications (PUnS). To do that we first identify four evaluation criteria than capture the semantics of satisfying a belief over LTL formulas. These include:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;em&gt;Most likely:&lt;/em&gt;&lt;/strong&gt; Here only the formula with the highest probability in the belief distribution is satisfied, the other formulas are ignored.&lt;/li&gt;
@@ -155,7 +189,9 @@
 &lt;li&gt;&lt;strong&gt;&lt;em&gt;Chance constrained:&lt;/em&gt;&lt;/strong&gt; The maximum probability of failure is determined by the user and the distribution is modified to only capture a set of formulas that have a cumulative probability larger than the failure probability.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;While traditionally, planning problems have focused on a single user specified formula as specifications, they cannot handle these cases where&lt;/p&gt;
+&lt;p&gt;We demonstrate that the choice of evaluation criterion results in a trade-off between fliexibility in task execution and risk-aversion. Finally we also demonstrate that every instance of a PUnS problem can be compiled into an equivalent reward machine. This is an equivalent Markov decision process (MDP) for the original non-Markov PUnS problem.&lt;/p&gt;
+
+&lt;p&gt;We demonstrate our technique on the table-setting task where the task specifications were inferred from 30 demonstrations, and the policy computed using the PUnS formulation sets the table with a very low error rate (0.001%).&lt;/p&gt;
 </description>
     </item>
     
@@ -245,15 +281,6 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/content/publication/shah2019puns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planning With Uncertain Specifications (PUnS)</title>
-      <link>http://people.csail.mit.edu/ajshah/publication/shah2019puns/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://people.csail.mit.edu/ajshah/publication/shah2019puns/</guid>
       <description></description>
     </item>
     

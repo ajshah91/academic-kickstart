@@ -23,6 +23,38 @@
     </item>
     
     <item>
+      <title>Interactive Robot Training for Non-Markov Tasks</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah-2020-interactive/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah-2020-interactive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayes-Probe: Distribution-Guided Sampling for Prediction Level Sets</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/booth-2020-bayesprobe/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/booth-2020-bayesprobe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning With Uncertain Specifications (PUnS)</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah2020puns/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah2020puns/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/_Ugr8d_lHtw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sampling Prediction-Matching Examples in Neural Networks: a Probabilistic Programming Approach</title>
       <link>http://people.csail.mit.edu/ajshah/publication/starai2020/</link>
       <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
@@ -55,15 +87,6 @@
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/publication/shah-2019-rss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planning With Uncertain Specifications (PUnS)</title>
-      <link>http://people.csail.mit.edu/ajshah/publication/shah2019puns/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://people.csail.mit.edu/ajshah/publication/shah2019puns/</guid>
       <description></description>
     </item>
     

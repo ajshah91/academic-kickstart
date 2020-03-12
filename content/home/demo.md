@@ -46,7 +46,8 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
+- **March 2020:** Our research on '[Planning with Uncertain Specifications (PUnS)](./publication/shah2020puns)' was featured on the MIT home page. Check out the article [here](http://news.mit.edu/2020/showing-robots-learn-chores-0306).
+- **Feb 2020:** Our paper on '[Planning with Uncertain Specifications (PUnS)](./publication/shah2020puns)' has been accepted for publication in IEEE Robotics and Automation Letters (RA-L). It will also be presented at ICRA 2020.
 - **Dec 2019:** My abstract on '[Interactive Training for Temporal Tasks](./publication/shah-2020-pioneers)' has been accepted at the 2020 HRI Pioneers Workshop.
 - **June 2019:** I will be presenting our work on [PUnS](./project/puns) at [RSS 2019](http://www.roboticsconference.org/) at the Workshop on Combining Learning and Reasoning ([RSS-CLeAR](https://sites.google.com/view/rss19-learning-and-reasoning)) and at the workshop on [Robust Autonomy](https://sites.google.com/view/rss19safe/home)
 - **May 2019:** I will be presenting my work on leveraging temporal logics for learning from demonstrations at University of Washington.

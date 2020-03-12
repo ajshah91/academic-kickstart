@@ -590,9 +590,11 @@
 </figure>
 
 
-<p>Very often the specifications for a task can at best be stated as a collection of logical preferences. This is especially true if the specifications are constructed by preference elicitation from experts or by inferring specifications as a belief over logical formulas from examples. Quite often it might be impossible to simultaneously satisfy all the logical formulas in this collection, so it is desirable to best adhere to the entire distribution rather than individual formulas within its support.</p>
+<p>Consider the task of setting a dinner table. It involves placing the appropriate serving utensils and silverware according to the dishes being served. Some of the objects need to be placed in a particular order as they might be stacked on top of each other or due to cultural traditions. Many real-world tasks demonstrate such temporal characteristics that can succinctly modeled with linear temporal logic (LTL).</p>
 
-<p>While it is easy to define the semantics of satisfaction of a single formula, in this work, we have identified four evaluation criteria that capture the semantics of satisfying a belief over logical formulas. These include the following:</p>
+<p>However defining sound and complete task specifications in LTL is non-trivial, and it remains desirable to allow robots to infer the task specifications through intuitive modalities like demonstrations, spoken instructions or corrections. Thus specifications for a task can at best be stated as a belief over candidate LTL formulas. An ideal learner would try to simultaneously satisfy as many of these candidate properties as possible while performing the task.</p>
+
+<p>We tackle this problem in this work, where we introduces a novel problem formulation for planning with uncertain specifications (PUnS). To do that we first identify four evaluation criteria than capture the semantics of satisfying a belief over LTL formulas. These include:</p>
 
 <ul>
 <li><strong><em>Most likely:</em></strong> Here only the formula with the highest probability in the belief distribution is satisfied, the other formulas are ignored.</li>
@@ -601,7 +603,9 @@
 <li><strong><em>Chance constrained:</em></strong> The maximum probability of failure is determined by the user and the distribution is modified to only capture a set of formulas that have a cumulative probability larger than the failure probability.</li>
 </ul>
 
-<p>While traditionally, planning problems have focused on a single user specified formula as specifications, they cannot handle these cases where</p>
+<p>We demonstrate that the choice of evaluation criterion results in a trade-off between fliexibility in task execution and risk-aversion. Finally we also demonstrate that every instance of a PUnS problem can be compiled into an equivalent reward machine. This is an equivalent Markov decision process (MDP) for the original non-Markov PUnS problem.</p>
+
+<p>We demonstrate our technique on the table-setting task where the task specifications were inferred from 30 demonstrations, and the policy computed using the PUnS formulation sets the table with a very low error rate (0.001%).</p>
 
     </div>
 
@@ -740,6 +744,121 @@
     
     
       <h2>Publications</h2>
+      
+        
+          
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/ajshah/publication/shah2020puns/" itemprop="url">Planning With Uncertain Specifications (PUnS)</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      Reward engineering is crucial to high performance in reinforcement learning systems. Prior research into reward design has largely …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ajshah/authors/ankit-shah/"><strong>Ankit Shah</strong></a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ajshah/authors/shen-li/">Shen Li</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ajshah/authors/julie-shah/">Julie Shah</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ajshah/publication/shah2020puns/shah2020puns.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/ajshah/publication/shah2020puns/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ajshah/project/puns/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/_Ugr8d_lHtw" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
       
         
           
@@ -941,115 +1060,6 @@
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ajshah/publication/shah-2019-rss/Poster_AShah_RSS_2019_CLeAR.pdf" target="_blank" rel="noopener">
   Poster
 </a>
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/ajshah/publication/shah2019puns/" itemprop="url">Planning With Uncertain Specifications (PUnS)</a>
-    </h3>
-
-    
-    <div class="article-style" itemprop="articleBody">
-      Reward engineering is crucial to high performance in reinforcement learning systems. Prior research into reward design has largely …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div itemprop="author">
-        
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ajshah/authors/ankit-shah/"><strong>Ankit Shah</strong></a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ajshah/authors/shen-li/">Shen Li</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ajshah/authors/julie-shah/">Julie Shah</a></span>
-
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1906.03218.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/ajshah/publication/shah2019puns/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ajshah/project/puns/">
-    Project
-  </a>
-  
-
-
 
 
 

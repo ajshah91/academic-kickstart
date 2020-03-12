@@ -7,10 +7,24 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year} Ankit Shah</copyright>
-    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="http://people.csail.mit.edu/ajshah/authors/shen-li/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Planning With Uncertain Specifications (PUnS)</title>
+      <link>http://people.csail.mit.edu/ajshah/publication/shah2020puns/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.csail.mit.edu/ajshah/publication/shah2020puns/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/_Ugr8d_lHtw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Planning With Uncertain Specifications (PUnS)</title>
@@ -18,15 +32,6 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>http://people.csail.mit.edu/ajshah/content/publication/shah2019puns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planning With Uncertain Specifications (PUnS)</title>
-      <link>http://people.csail.mit.edu/ajshah/publication/shah2019puns/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://people.csail.mit.edu/ajshah/publication/shah2019puns/</guid>
       <description></description>
     </item>
     
