@@ -3,7 +3,7 @@
 
 title: "Interactive Teleoperated Robot Training"
 subtitle: ""
-summary: "I will be presenting my work on [planning with uncertain specifications](/project/puns) at RSS 20198"
+summary: ""
 authors: []
 tags: []
 categories: []
