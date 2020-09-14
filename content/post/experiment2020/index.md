@@ -3,7 +3,7 @@
 
 title: "Interactive Teleoperated Robot Training"
 subtitle: "Train a Robot to set a table from your home."
-summary: ""
+summary: "Train a Robot to set a table from your home."
 authors: []
 tags: []
 categories: []
