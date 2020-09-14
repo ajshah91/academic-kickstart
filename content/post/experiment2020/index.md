@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Interactive Teleoperated Robot Training"
-subtitle: ""
+subtitle: "Train a Robot to set a table from your home."
 summary: ""
 authors: []
 tags: []
