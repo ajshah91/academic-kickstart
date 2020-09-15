@@ -32,7 +32,7 @@ projects: []
 
 Teach an actual robot to set a dinner table from your home. The Interactive Robotics Group at MIT is seeking participants for a robot training experiment. You will be training an actual UR-10 robot located in our lab remotely from your home/office. You will get a chance to work with a robotic platform using state-of-the-art learning algorithms for robotics.
 
-The experiment will run for 90 minutes, and you will receive a check of $15 for completing the experiment (subject to [tax regulation](http://couhes.mit.edu/guidelines/paymentcosts)). We are currently enrolling only US based participants and hope to expand the study soon.
+The experiment is expected to last 1 hour (upper limit 75 minutes), and you will receive a check of $15 for completing the experiment (final amount subject to [tax regulation](http://couhes.mit.edu/guidelines/paymentcosts)). The slots last 90 minutes to provide adequate buffer for the experiment supervisor. We are only enrolling participants living in the US and hope to expand the study soon.
 
 Prerequisites:
 
