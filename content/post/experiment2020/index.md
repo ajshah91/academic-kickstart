@@ -30,7 +30,7 @@ projects: []
 
 {{< figure library="1" src="Experiment.jpg" title="" >}}<br/>
 
-Teach an actual robot to set a dinner table from your home. The Interactive Robotics Group at MIT is seeking participants for a robot training experiment. You will be training an actual UR-10 robot located in our lab remotely from your home/office. You will get a chance to work with a robotic platform using state-of-the-art learning algorithms for robotics.
+Help us teach a robot to set a dinner table in our remote teleoperated robot training study. We are the Interactive Robotics Group at MIT, and we are trying to make robots better students. In this experiment you will be working with a UR-10 robot located in our lab from the comfort of your home. No prior experience in programming or robotics is necessary to participate. This study gives you a change to work with the state-of-the-art learning algorithms for robotics.
 
 The experiment is expected to last 1 hour (upper limit 75 minutes), and you will receive a check of $15 for completing the experiment (final amount subject to [tax regulation](http://couhes.mit.edu/guidelines/paymentcosts)). The slots last 90 minutes to provide adequate buffer for the experiment supervisor. We are only enrolling participants living in the US and hope to expand the study soon.
 
@@ -39,4 +39,4 @@ Prerequisites:
 1. Zoom desktop client (We cannot support mobile or tablet apps).
 2. Stable internet connection to support a video call.
 
-You can book a session [here](http://robot-training.youcanbookme.com). For any additional information please contact Ankit Shah at   <mailto:ajshah@mit.edu>
+Book you session [here](http://robot-training.youcanbookme.com). We update the available slots daily. For any additional information please contact Ankit Shah at <mailto:ajshah@mit.edu>.
