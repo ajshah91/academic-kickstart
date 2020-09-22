@@ -40,9 +40,9 @@ categories = []
 
 ## Protocol for running the experiment
 
-1. [Ensure that the safety and connectivity checks are complete](#safety))
+1. [Ensure that the safety and connectivity checks are complete](#safety)
 1.  [Start up and initialize the robot](#startup)
-2. [Start the PUnS and BSI Servers](#server)
+2. [Start the PUnS and BSI Servers](#servers)
 3. Assign protocol `<ProtocolID>` and participant ID `<ParticipantID>` for the next participant and navigate to the appropriate briefing:
     1. Task 1 (all five objects) Protocol A (Active), B (Random): [link here](https://docs.google.com/presentation/d/1lbmulkdZtqsR6LqO6Xh8NaX58SelrH_qKz-pCHDTfTs/)
     2. Task 1 Protocol C (Batch): [link here](https://docs.google.com/presentation/d/1lcr5R5QCZUoPqs1g07So7u7x-vWgsT_3rk1i6qi73Es)
@@ -54,6 +54,7 @@ categories = []
 6. Switch to the "Display" presentation
 7. Proceed with the experiment script
 8. [Experiment specific scripts](#exp)
+9. [Known recovery models](#recovery)
 
 
 ## <a name = 'safety'> Safety Checks:
@@ -110,33 +111,34 @@ categories = []
   * `updatetime`
 
 #### On the demo PC, start to run these commands:
-* Terminal 1
-  * Tab 1
-    * `source-puns`
-    * `sshyuri` with password `mit`.
-    * `roscore`
-  * Tab 2
-    * `source-puns`
-    * `sshyuri` with password `mit`.
-    * `roslaunch yuri_launch table_setup.launch`
-      * Launch the robot.
-      * When you see this message, the process is done:
-        * `All is well! everyone is happy! You can start planning now!`
-  * Tab 3
-    * `source-puns`
-    * `sshyuri` with password `mit`.
-    * `rosrun phasespace_acquisition fake_localization.py`
-      * This will keep sending a fake predefined fixed localization for the robot base as the odometry.
-  * Tab 4
-    * `source-puns`
-    * `sshacer` with password `mit`.
-    * `roslaunch yuripy_joule camera_with_apriltags.launch`
-  * Tab 5
-    * `source-puns`
-    * `sshyuri` with password `mit`.
-    * `roslaunch yuri_launch camera_with_apriltags.launch load_camera_driver:=false load_apriltags_software:=true apriltags_launch_file_name:=r200_table_setup`
-      * The AprilTag detection software (the camera driver is running on the Acer PC).
-      * We run this separately from `table_setup.launch` so that if it crashes, we only need to restart this node.
+Terminal 1:
+
+* Tab 1
+  * `source-puns`
+  * `sshyuri` with password `mit`.
+  * `roscore`
+* Tab 2
+  * `source-puns`
+  * `sshyuri` with password `mit`.
+  * `roslaunch yuri_launch table_setup.launch`
+    * Launch the robot.
+    * When you see this message, the process is done:
+      * `All is well! everyone is happy! You can start planning now!`
+* Tab 3
+  * `source-puns`
+  * `sshyuri` with password `mit`.
+  * `rosrun phasespace_acquisition fake_localization.py`
+    * This will keep sending a fake predefined fixed localization for the robot base as the odometry.
+* Tab 4
+  * `source-puns`
+  * `sshacer` with password `mit`.
+  * `roslaunch yuripy_joule camera_with_apriltags.launch`
+* Tab 5
+  * `source-puns`
+  * `sshyuri` with password `mit`.
+  * `roslaunch yuri_launch camera_with_apriltags.launch load_camera_driver:=false load_apriltags_software:=true apriltags_launch_file_name:=r200_table_setup`
+    * The AprilTag detection software (the camera driver is running on the Acer PC).
+    * We run this separately from `table_setup.launch` so that if it crashes, we only need to restart this node.
 
 ## <a name = 'servers'> Starting servers
 
@@ -156,8 +158,10 @@ Detach a screen by hitting `Ctrl + a` then `d`. List all running screens using `
 
 
 
-## <a name = 'exp'> Experiment specific scripts
+##  Experiment specific scripts <a name = 'exp'>
 Use a second terminator terminal to run all the experiment specific scripts. An ideal layout is as follows:
+
+Terminal 2:
 
   * Tab 1
     * Navigate the the client scripts folder `cd ~/Github/Personal_AJShah/pun-bsi-client`
@@ -177,3 +181,72 @@ Use a second terminator terminal to run all the experiment specific scripts. An 
     * Use to monitor the specs using:
       * `ipython3`
       * `from puns_bsi_client_dinner import *`
+
+## Recovery Modes <a name = 'recovery'>
+
+#### Interrupted demonstration (Demonstrator error)
+
+If this was `<demoID>`
+
+1. Kill the task execution server script in Terminal 2 -> Tab 1 (`Ctrl + c`). The script should restart and relaunch the command server.
+2. Reset the table
+3. Kill the robot script with `Ctrl + \`
+3. Restart the robot script node in Terminal 2 -> Tab 2 while rewriting the demo file `rosrun table_setup teleop_demo.py --demo-d=<demoID>`
+
+
+#### Interrupted Demonstration (Script crashes)
+
+If this was `<demoID>`
+
+1. The task execution server script should relaunch the server. Verify the correct position in the sequence using the google slides Display
+2. *DO NOT* reset the table
+3. Kill the robot script with `Ctrl + \`
+4. Restart the robot script in Terminal 2 -> Tab 2 while appending to the existing demonstration file `rosrun table_setup teleop_demo --demo-d=<demoID> --append`
+5. Verify that the demonstration is being appended in `~/Github/Personal_AJShah/puns-bsi-client/Demonstrations`
+
+#### Interrupted automatic task execution (usually due to robot error)
+
+1. Kill the robot execution node ASAP with `Ctrl + \`
+2. Kill the execution server with `Ctrl + c`. This should restart and relaunch the server
+3. Solve the robot issue
+4. Reset the table
+5. Inform the participant that the robot will re-demonstrate the last task execution
+6. Restart the robot execution script in Terminal 2 -> Tab 3 `rosrun table_setup run_interactive_demo.py`
+
+
+#### Camera Freeze
+
+The robot may not be able to pick up any object eventhough they are visible on the table
+
+1. Kill the task execution server (`Ctrl + c`). This should restart and relaunch automatically. Kill the robot execution node in Terminal 2 -> Tab 2 or Tab 3
+2. Verify that the camera stream has stopped in `rviz`
+3. If the camera stream has stopped kill processes in Terminal 1 -> Tab 4 and Tab 5.
+4. Relaunch them
+5. Verify that the camera is now working
+6. Restart the robot execution node in Terminal 2 -> Tab2 or Tab 3 with the appropriate command
+
+#### Gripper Freeze
+
+1. Kill the ROS processes
+2. Shutdown robot
+3. Restart the robot
+4. Try to operate the gripper using `rosrun yuripy close_open_gripper.py -r` to close the gripper and`rosrun yuripy close_open_gripper.py -o` to open the gripper
+
+#### Robot conducting a weird motion
+1. Kill the robot execution node with `Ctrl + \`
+2. Make sure robot does not collide with tables (move tables if necessary)
+3. Release the robot gripper if necessary with `rosrun yuripy close_open_gripper.py -o`
+4. Try to reset with `rosrun table_setup move_to_pose.py --left` while making sure all objects and tables are out of the way.
+5. If this fails, kill all ROS processes and use the teaching pendant to move the robot to home pose. Next, power cycle the robot.
+
+#### Robot Freezes
+
+May happen due to clock drift over time
+
+1. Kill the task execution server script in Terminal 2 -> Tab 1 (`CTRL + c`). The script should restart and relaunch the command server for both demonstrations and automatic executions.
+2. Kill the robot script node in Terminal 2 -> Tab 2 or Tab 3 as applicable
+3. Kill all the scripts in Terminal 1 (ROS related)
+4. Take robot to the home position
+5. Update time on all the computers
+6. Restart the ROS scripts
+7. Restart the robot script in Terminal 2 -> Tab 2 or Tab 3
