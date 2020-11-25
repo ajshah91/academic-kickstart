@@ -25,9 +25,9 @@ organizations:
 bio: PhD candidate at MIT interested in expanding the repertoire of tasks that robots can learn.
 
 interests:
-- Robotics
-- Artificial Intelligence
-- Probabilistic Programming
+- Machine Learning and AI for Robotics
+- Human-Machine Interaction
+- Ease of Robot Programming
 
 education:
   courses:
@@ -79,8 +79,13 @@ email: ""
 #- Visitors
 ---
 
-I am a PhD candidate in the Interactive Robotics Group at MIT advised by Prof. Julie Shah. My research interests lie in enabling robots to learn complex multi-step tasks from demonstrations. Towards that goal, I am trying to enable the use of formal logic formulas as intermediaries between the teacher and the learners of the task. I believe that transparency of objectives are a necessary condition for widespread deployment of autonomous robotic systems, and integrating formal logics with learned representations is an important step towards that.
+I am a PhD candidate in the Interactive Robotics Group at MIT advised by Prof. Julie Shah. My research vision involves developing computational models and algorithms that allow domain-experts to directly train robots just as they would train a human apprentice. Leveraging human domain-experts’ strengths to enable robots to teach and learn effectively will be the defining theme of my long-term research. I believe that enabling domain-experts to directly train autonomous systems to perform complex tasks while enabling transparency in the system's policy will be crucial enabler for widespread deployment of autonomous systems.
 
+I am on the market for tenure-track faculty and industry research positions. You can find my [research statement](files/Research_Statement.pdf) and the [teaching philosophy statement](files/Teaching_Statement.pdf) here. Please [reach out](mailto:ajshah@mit.edu) if you are hiring.
+
+<!-- Towards that goal, I developed a Bayesian framework for training the robots using demonstrations and expert critiques.
+
+I am currently on the market for tenure-track faculty positions -->
 <!-- #In particular, he is interested in enabling use of temporal logic formulas as an intermediary between the teacher and the learner.
 
-#In the past he has also worked on manipulation planning for deformable objects for his SM thesis completed in 2016 at MIT. Prior to joining MIT, Ankit completed his B.Tech. in Aerospace Engineering from Indian Institute of Technology, Bombay (IIT-B) in 2013. -->
+<!-- #In the past he has also worked on manipulation planning for deformable objects for his SM thesis completed in 2016 at MIT. Prior to joining MIT, Ankit completed his B.Tech. in Aerospace Engineering from Indian Institute of Technology, Bombay (IIT-B) in 2013. -->
