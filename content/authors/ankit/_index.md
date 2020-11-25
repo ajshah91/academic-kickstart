@@ -33,7 +33,7 @@ education:
   courses:
   - course: PhD in Aeronautics and Astronautics
     institution: Massachusetts Institute of Technology
-    year: 2020 (expected)
+    year: 2021 (expected)
   - course: S.M. in Aeronautics and Astronautics
     institution: Massachusetts Institute of Technology
     year: 2016

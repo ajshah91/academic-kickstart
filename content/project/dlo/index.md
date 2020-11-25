@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Manipulation planning for interlinked cables"
-summary: "We introduce a task planning algorithm that sequences manipulation steps to install a set of cable harnesses in an aircraft."
+summary: "A task planning algorithm to install cables in an aircraft"
 authors: []
 tags: []
 categories: []

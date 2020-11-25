@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Planning with Uncertain Specifications (PUnS)"
-summary: "What should you do when you are uncertain about what needs to be done? Planning with specifications as a belief over LTL formulas"
+summary: "Planning with specifications as a belief over LTL formulas"
 authors: []
 tags: []
 categories: []

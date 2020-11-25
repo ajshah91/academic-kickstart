@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Bayesian Specification Inference"
-summary: "We introduce a Bayesian formulation for specification inference that enables us to learn logical task specifications with very few examples."
+summary: "Leaning logical task specifications with very few examples."
 authors: []
 tags: []
 categories: []
