@@ -46,6 +46,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+- **Dec 2020:** Our work on [Bayes-Trex](./publication/booth-2020-bayesprobe) led by Serena Booth and Yilun Zhou was accepted at AAAI-2021.
 - **Dec 2019:** My abstract on "Interactive Robot Training for Temporal Tasks" has been accepted at the 2020 HRI Pioneers Workshop.
 - **June 2019:** I will be presenting our work on [PUnS](./project/puns) at [RSS 2019](http://www.roboticsconference.org/) at the Workshop on Combining Learning and Reasoning ([RSS-CLeAR](https://sites.google.com/view/rss19-learning-and-reasoning)) and at the workshop on [Robust Autonomy](https://sites.google.com/view/rss19safe/home)
 - **May 2019:** I will be presenting my work on leveraging temporal logics for learning from demonstrations at University of Washington.
