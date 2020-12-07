@@ -46,6 +46,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+- **Dec 2020:** Our work on [Bayes-Trex](./publication/booth-2020-bayesprobe) led by Serena Booth and Yilun Zhou was accepted at AAAI-2021.
 - **March 2020:** Our research on '[Planning with Uncertain Specifications (PUnS)](./publication/shah2020puns)' was featured on the MIT home page. Check out the article [here](http://news.mit.edu/2020/showing-robots-learn-chores-0306).
 - **Feb 2020:** Our paper on '[Planning with Uncertain Specifications (PUnS)](./publication/shah2020puns)' has been accepted for publication in IEEE Robotics and Automation Letters (RA-L). It will also be presented at ICRA 2020.
 - **Dec 2019:** My abstract on '[Interactive Training for Temporal Tasks](./publication/shah-2020-pioneers)' has been accepted at the 2020 HRI Pioneers Workshop.
