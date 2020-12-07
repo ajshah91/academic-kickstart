@@ -1,12 +1,13 @@
 ---
-title: "Bayes-Probe: Distribution-Guided Sampling for Prediction Level Sets"
-date: 2020-03-01
-publishDate: 2020-02-26T15:10:12.073522Z
+title: "Bayes-TrEx: a Bayesian Sampling Approach to Model Transparency by Example"
+date: 2021-02-09
+publishDate: 2020-12-04T15:10:12.073522Z
 authors: ["Serena Booth", "Yilun Zhou", "**Ankit Shah**", "Julie Shah"]
-publication_types: ["3"]
-abstract: "Building machine learning models requires a suite of tools for interpretation, understanding, and debugging. Many existing methods have been proposed, but it can still be difficult to probe for examples which communicate model behaviour. We introduce Bayes-Probe, a model inspection method for analyzing neural networks by generating distribution-conforming examples of known prediction confidence. By selecting appropriate distributions and confidence prediction values, Bayes-Probe can be used to synthesize ambivalent predictions, uncover in-distribution adversarial examples, and understand novel-class extrapolation and domain adaptation behaviours. Bayes-Probe is model agnostic, requiring only a data generator and classifier prediction. We use Bayes-Probe to analyze models trained on both procedurally-generated data (CLEVR) and organic data (MNIST and Fashion-MNIST)."
+publication_types: ["1"]
+abstract: "Post-hoc explanation methods are gaining popularity as tools for interpreting, understanding, and debugging neural networks. Most post-hoc methods explain decisions in response to individual inputs drawn from the test set. However, the test set often fails to include highly confident misclassifications and ambiguous examples. To address these challenges, we introduce Bayes-TrEx for more flexible model inspection. It is a model- and data-generator-agnostic method for creating new distribution-conforming examples of known prediction confidence. Bayes-TrEx can be used to find highly confident misclassifications; to visualize class boundaries through ambiguous examples; to understand novel-class extrapolation; and to expose neural network overconfidence. We demonstrate Bayes-TrEx on CLEVR, MNIST, and Fashion-MNIST. Compared to inspecting test set examples, we show that Bayes-TrEx enables more flexible holistic model analysis. Our open source code is in supplemental."
 featured: false
-publication: "arXiv:2002.10248 (under review)"
-url_pdf: "https://arxiv.org/abs/2002.10248"
+publication: "Proceedings of the AAAI Conference on Artificial Intelligence (Accepted for publication)"
+url_pdf: ""
 url_code: ""
+projects: ["bayes-trex"]
 ---
